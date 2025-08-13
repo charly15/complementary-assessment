@@ -7,7 +7,7 @@ const app = express();
 // Definimos los orígenes permitidos (dev + producción)
 const allowedOrigins = [
   'http://localhost:5173',                 
-  'https://complementary-assessment-1.onrender.com' 
+  'https://complementary-assessment-front.onrender.com' 
 ];
 
 app.use(cors({
